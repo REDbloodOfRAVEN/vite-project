@@ -15,5 +15,49 @@
     font-family: var(--playfair-display);
     text-transform: uppercase;
     color: var(--secondary-color);
+
+    cursor: pointer;
 }
 
+.footer__logo span{
+    color: var(--primary-color);
+}
+
+.footer ul{
+    list-style: none;    
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 64px;
+}
+
+.footer ul:last-child{
+    gap: 32px;
+}
+
+.footer__nav li{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+
+    cursor: pointer;
+}
+
+.footer__social li{
+    width: 46px;
+    height: 46px;
+/*
+    color: var(--secondary-color);
+    border-radius: 100%;
+*/ 
+}
+.footer__social li img{
+    width: 65%;
+    height:65%;
+
+    object-fit: contain;
+}

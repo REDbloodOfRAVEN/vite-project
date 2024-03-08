@@ -290,7 +290,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
@@ -319,3 +319,7 @@ a {
   }
 }
 /* END: trending media queries */
+/*
+@media screen and (max-width: 550px) {
+  .footer
+}*/
